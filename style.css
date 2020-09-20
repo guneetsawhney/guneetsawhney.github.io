@@ -2,8 +2,8 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
   font-size: medium;
   text-align: justify
 }
@@ -11,6 +11,8 @@ body {
 .column {
   float: left;
   width: 50%;
+  align-self: center;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -19,153 +21,3 @@ body {
   display: table;
   clear: both;
 }
-
-/*.header,.overview,.blog-post,.blog-list,.footer {
-  padding-right: 15px;
-  padding-left: 15px
-}*/
-
-/*@media screen and (min-width: 768px) {
-  .header,.overview,.blog-post,.blog-list,.footer {
-    padding-right: 0;
-    padding-left: 0
-  }
-}*/
-
-/*.header {
-  margin-top: 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #e5e5e5;
-  font-weight: bold
-}*/
-
-/*.header h1 {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 15px;
-  line-height: 40px;
-  font-weight: bold;
-  font-size: 120%;
-  color: black;
-  transition: color 300ms;
-  text-decoration: none
-}*/
-
-/*.header h1 span {
-  color: #00c8c8
-}*/
-
-/*@media screen and (min-width: 768px) {
-  .header {
-    margin-bottom: 10px
-  }*/
-
-  /*.header h4 {
-    margin-right: 10px
-  }
-}*/
-
-/*.nav.pages>li>a {
-  padding: 4px 12px;
-  margin-right: 10px;
-  margin-top: 5px
-}*/
-
-/*.nav>li>a {
-  color: #aaa;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 300ms, background-color 300ms
-}*/
-
-/*.nav>li.active>a {
-  background-color: #aaa
-}*/
-
-/*.header h1:hover,.nav>li>a:hover {
-  color: #00c8c8;
-  transition: color 300ms, background-color 300ms
-}*/
-
-/*.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 4px solid #eee;
-  margin-top: 40px
-}*/
-
-/*@media (min-width: 768px) {
-  .container {
-    max-width: 730px
-  }
-}*/
-
-/*.container-narrow>hr {
-  margin: 30px 0
-}
-
-.overview {
-  margin-top: 40px
-}
-
-.languages ul {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  margin: 20px auto 20px auto
-}
-
-@media screen and (min-width: 768px) {
-  .languages ul {
-    margin-bottom: 10px
-  }
-}
-
-.languages li {
-  background-color: #eee;
-  padding: .4em 1em;
-  border-radius: 5em;
-  transition: background-color 300ms;
-  margin-bottom: 10px;
-  cursor: default
-}
-
-.languages li:hover {
-  background-color: #ddd;
-  transition: background-color 300ms
-}
-
-.portfolio {
-  text-align: left
-}
-
-.portfolio h2 {
-  margin-bottom: -8px
-}
-
-.portfolio h3 {
-  margin-right: 20px
-}
-
-.portfolio p+h3 {
-  margin-top: 28px
-}
-
-.portfolio a {
-  margin-left: 10px;
-  color: #bbb;
-  transition: color 300ms
-}
-
-.portfolio a:hover {
-  color: #199;
-  transition: color 300ms
-}
-*/
-
-
-
-/*aside {
-  display: inline;
-  color: grey
-}*/
